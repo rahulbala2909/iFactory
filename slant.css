@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+
+.slant{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: #1f1627;
+    border-radius: 100px;
+
+}
+
+.slant::after{
+    transform: skewY(-4deg);
+    transform-origin: top left;
+    background: inherit;
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header{
+    position: relative;
+    top: 2vh;
+    z-index: 100;
+
+}
+
+.header h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+.header h2{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 12vh;
+    font-size: xxx-large;
+}
+
+.header img{
+    height: 80;
+    width: 80;
+    position: relative;
+    left: 95vh;
+    top: 12vh;
+}
+
+.slant1{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color:burlywood;
+    top: 20vh;
+}
+
+.slant1::after{
+    transform: skewY(-4deg);
+    transform-origin: top left;
+    background: inherit;
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header p{
+    color: antiquewhite;
+    width: 50%;
+    text-align: justify;
+    font-size: xx-large;
+    margin-left: 50vh;
+}
+
+.slant2{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color:#1f1627;
+    margin-bottom: 20vh;
+
+}
+
+.slant2::after{
+    transform: skewY(-4deg);
+    transform-origin: top left;
+    background: inherit;
+    width: 100%;
+    height: 55%;
+    content: '';
+    position: absolute;
+    top: -5vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.slant3{
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    background-color:rgb(255, 102, 235);
+    margin-bottom: 20vh;
+    top: 30vh;
+}
+
+.slant3::after{
+    transform: skewY(-4deg);
+    transform-origin: top left;
+    background: inherit;
+    width: 100%;
+    height: 55%;
+    content: '';
+    position: absolute;
+    top: -5vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 240%;
+    background-color: rgb(230, 230, 230);
+    color: rgb(126, 126, 126);
+}
+
+footer h2{
+    padding: 2vh;
+}
